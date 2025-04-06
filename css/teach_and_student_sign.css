@@ -1,0 +1,62 @@
+.student_body{
+  background: url('../images/studentsign.jpg');
+  background-size: cover;
+}
+body{
+  background-image: url('../images/bg2.jpg');
+  background-size: cover;
+  color: #fff;
+}
+
+h1 {
+  text-align: center;
+  font-size: 4rem;
+  /* font-family: 'Acme', sans-serif; */
+  font-family: 'Roboto', san-serif;
+  /* color: #14213d; */
+  margin-bottom: 30px;
+  /* text-shadow: 2px 2px 2px #686b6cd6; */
+}
+
+h3 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-family: 'EB Garamond', san-serif;
+  /* color: #14213d; */
+  margin-top: 25px;
+  font-weight: lighter;
+}
+
+.box {
+  text-align: center;
+}
+
+.name {
+  background-color: rgb(255, 255, 255);
+  border-radius: 12px;
+  padding: 7px 35px;
+  margin-bottom: 10px;
+}
+.contain{
+  margin-right: 23px;
+}
+.sign-in {
+
+  margin: auto;
+  border-radius: 68px;
+  /* width: 365px; */
+}
+
+.btn {
+  margin: 7px 0 7px 0;
+  padding: 6px 17px;
+  border-radius: 10px;
+  border: none;
+  transition: 0.2s;
+}
+
+.btn:hover {
+  background-color: #14213d;
+  color: white;
+  cursor: pointer;
+}

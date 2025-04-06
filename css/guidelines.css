@@ -1,0 +1,49 @@
+body{
+  font-family: 'Poppins','Helvetica','Arial',sans-serif;
+}
+h1,h2{
+  font-size: 75px;
+  text-align: center;
+  margin-top:40px;
+  margin-bottom: 40px;
+  color: #568dca;
+  font-weight: 600;
+}
+.rules{
+  position: absolute;
+  top: 25%;
+  left: 28%;
+  color:#fff;
+  font-weight: bold;
+  padding: 20px;
+  border-radius: 15px;
+  display: inline-block;
+  background-color: #1363DF;
+  line-height: 2.5;
+}
+.rules h3{
+  text-align: center;
+  text-decoration: underline;
+  margin: 10px;
+}
+.btn{
+  color:white;
+  padding: 10px 20px;
+  font-size: 20px;
+  position: absolute;
+  bottom: 5%;
+  left: 85%;
+  border-radius: 20px;
+  border: none;
+  background: none;
+  transition: 0.2s linear;
+}
+.btn a{
+  color:white;
+  text-decoration:none;
+}
+.btn :hover{
+  color: white;
+ cursor: pointer;
+ background-color: #1363DF;
+}

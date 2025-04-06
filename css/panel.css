@@ -1,0 +1,127 @@
+body {
+  height: 100%;
+  background-color: #92B4EC;
+  font-family: 'Raleway', sans-serif;
+}
+.welcome{
+  margin:1rem;
+  padding:1rem;
+  font-size: 2rem;
+  display:flex;
+  justify-content:center;
+}
+.container{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ position: absolute;
+ top: 35%;
+ left: 35%;
+}
+a{
+  text-decoration: none;
+  color: #DFF6FF;
+}
+.para p{
+  padding: 20px 0;
+}
+.Take_exam{
+  border-radius: 15px;
+  color: #DFF6FF;
+  width: 150px;
+  height: 150px;
+  background-color: #1363DF;
+  display: inline-block;
+  text-align: center;
+  font-size: 33px;
+  margin: 0 20px;
+  transition: 0.5s linear;
+}
+.Take_exam:hover{
+  background-color: #0348b7;
+  transform: translateY(-10px);
+  border-left: 8px solid red;
+  transition: 0.5s;
+  box-shadow: 8px 8px 3px rgba(0, 0, 0, 0.2);
+}
+
+.Marks{
+  border-radius: 15px;
+  color: #DFF6FF;
+  width: 150px;
+  height: 150px;
+  background-color: #1363DF;
+  display: inline-block;
+  text-align: center;
+  border: none;
+  font-size: 33px;
+  margin: 15px 20px;
+  transition: 0.5s linear;
+
+}
+.Marks:hover{
+  background-color: #0348b7;
+  transform: translateY(-10px);
+  border-left: 8px solid red;
+  transition: 0.5s;
+  box-shadow: 8px 8px 3px rgba(0, 0, 0, 0.2);
+}
+.Ranking{
+  color: #DFF6FF;
+  border-radius: 15px;
+  width: 150px;
+  height: 150px;
+  background-color: #1363DF;
+  display: inline-block;
+  text-align: center;
+  font-size: 33px;
+  margin: 15px 20px;
+  transition:0.5s linear;
+}
+.Ranking:hover{
+  background-color: #0348b7;
+  transform: translateY(-10px);
+  border-left: 8px solid red;
+  transition: 0.5s;
+  box-shadow: 8px 8px 3px rgba(0, 0, 0, 0.2);
+}
+.Queries{
+  border-radius: 15px;
+  color: #DFF6FF;
+  width: 150px;
+  height: 150px;
+  background-color: #1363DF;
+  display: inline-block;
+  text-align: center;
+  font-size: 33px;
+  margin: 15px 20px;
+  transition: 0.5s linear;
+}
+.Queries:hover{
+  background-color: #0348b7;
+  transform: translateY(-10px);
+  border-left: 8px solid red;
+  transition: 0.5s;
+  border-width: 10px;
+  box-shadow: 8px 8px 3px rgba(0, 0, 0, 0.2);
+}
+.btn{
+  font-size: 15px;
+  border-radius: 100px;
+  color: #0348b7;
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  border: none;
+  background: none;
+  font: inherit;
+  line-height: 1;
+  margin: 0.5em;
+  padding: 1em 2em;
+  transition:  0.2s linear;
+}
+.btn:hover{
+  font-weight: bold;
+  border:2px solid #0348b7;
+  box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,119 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Fredoka One', cursive;
+
+  font-family: 'Josefin Sans', sans-serif;
+}
+.banner{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(27, 64, 70, 0.76),rgba(0,0,0,0.75)),url("../images/bg.jpg");
+  background-size: 1400px 800px;
+  background-position: center;
+}
+.navbar{
+  width: 97%;
+  margin: auto;
+  margin-left: 82px;
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Fredoka One', cursive;
+
+  font-family: 'Secular One', sans-serif;
+}
+.logo{
+  width: 4.6875em;
+  cursor:  pointer;
+}
+.navbar ul li{
+  
+  list-style: none;
+  display: inline-block;
+  margin: 0 25px;
+  position: relative;
+}
+.navbar ul li a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+}
+.navbar ul li::after{
+  content: '';
+  height: 2px;
+  width: 0;
+  background: #009688;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  transition: 0.1s;
+}
+.navbar ul li:hover::after{
+  width: 100%;
+}
+.content{
+  width: 100%;
+  position: absolute;
+  top: 35%;
+  text-align: center;
+  color: #fff;
+}
+h1{
+  font-family: 'Fredoka One', cursive;
+  margin: 10px auto;
+  font-size: 4.6875em;
+}
+p{
+  margin: 20px auto;
+  line-height: 25px;
+  font-weight: 100;
+}
+button{
+  width: 250px;
+  padding: 15px 0;
+  margin: 20px 10px;
+  text-align: center;
+  border-radius: 20px;
+  font-weight: bold;
+  border: 2px solid #009688;
+  background: transparent;
+  color:#fff;
+  cursor: pointer;
+  transition: ease-out 0.3s;
+  outline: none;
+  position: relative;
+  z-index: 1;
+}
+button:hover{
+  background-color:  #009688;
+}
+/* button::before{
+  transition: 0.5 all ease;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  opacity: 0;
+  content: '';
+  background-color: #009688;
+} */
+/* .button:hover::before{
+  transition: 0.5 all ease;
+  left:0;
+  right: 0;
+  opacity: 1;
+  z-index: -1;
+} */
+/* span{
+  background: #009688;
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+} */
